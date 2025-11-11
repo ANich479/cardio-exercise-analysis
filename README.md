@@ -1,40 +1,33 @@
-# 운동 여부가 심혈관 질환에 미치는 영향 분석 (R)
+# 운동 여부가 심혈관 질환에 미치는 영향 분석
 
-Kaggle의 Cardiovascular Disease dataset을 활용하여 운동 여부가 심혈관 질환 발생에 미치는 영향을 통계적으로 분석한 프로젝트입니다.
+
+## 📊 프로젝트 개요
+kaggle의 Cardiovascular Disease 데이터셋을 활용하여, 운동 여부가 심혈관 질환 발생에 미치는 영향을 통계적으로 분석 및 로지스틱 회귀 모델의 예측력 검토 및 변수들 간 상관관계 분석.
+
+데이터셋: Cardiovascular Disease dataset  
+출처: https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
+
 
 ---
 
-## 💾 데이터
+## 📈 주요 결론 요약
 
-* **출처:** Kaggle (Cardiovascular Disease dataset)
-* **링크:** [https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset)
-* **참고:** 원본 데이터(`.csv`)는 용량 문제로 `.gitignore`에 의해 이 저장소에 포함되지 않았습니다. 위 링크에서 데이터를 다운로드할 수 있습니다.
+* **오즈비 해석:** 운동을 하는 그룹이 그렇지 않은 그룹에 비해 심혈관 질환 발생의 오즈비가 O.79배임을 통계적으로 확인 (p<0.05)
+
+* **교호작용 분석:** 운동의 여부가 나이와 혈압, 콜레스테롤과의 교호작용이 있음을 확인
+
+* **최종 모델 선택:** 교호작용을 포함한 모델과 포함하지 않은 모델 비교 결과 해석의 복잡도 대비 성능 향상이 크지 않았으므로 교호작용 미포함 모델을 최종 선택 (AUC: 0.7915)
+
 
 ---
 
-## 📊 주요 분석 내용
 
 
-* Kaggle의 Cardiovascular Disease dataset을 활용하여 운동 여부가 심혈관 질환 발생의 미치는 영향을 통계적으로 분석하였습니다.
-* 이를 위해 공변량의 분포를 비교하였습니다.
-* 로지스틱 회귀 분석(Logistic Regression)을 통해 운동 여부의 효과를 추정하였습니다.
-* 교호작용 및 모델의 예측력을 AUC 지표를 통해 추가적으로 검토하였습니다.
+## 🖼️ 프로젝트 발표 슬라이드
 
----
+<img src="./images/slide1.PNG" width="300"> <img src="./images/slide2.PNG" width="300"> <img src="./images/slide3.PNG" width="300"> <img src="./images/slide4.PNG" width="300">
+<img src="./images/slide5.PNG" width="300"> <img src="./images/slide6.PNG" width="300"> <img src="./images/slide7.PNG" width="300"> <img src="./images/slide8.PNG" width="300">
+<img src="./images/slide9.PNG" width="300"> <img src="./images/slide10.PNG" width="300"> <img src="./images/slide11.PNG" width="300"> <img src="./images/slide12.PNG" width="300">
+<img src="./images/slide13.PNG" width="300">
 
-## 📈 핵심 결과 (예시)
 
-* (여기에 분석 후 발견한 핵심 인사이트를 1~2줄로 요약)
-* *예: 로지스틱 회귀 분석 결과, 운동 여부는 심혈관 질환 발생 확률을 약 XX% 낮추는 것으로 나타났습니다. (Odds Ratio = 0.XX)*
-* *예: 개발된 모델의 예측 정확도(AUC)는 0.XX로 준수한 성능을 보였습니다.*
-
----
-
-## 🛠️ 사용 기술
-
-* **Language:** R
-* **IDE:** RStudio
-* **주요 패키지:**
-    * `(데이터 처리에 쓴 패키지, 예: dplyr)`
-    * `(시각화에 쓴 패키지, 예: ggplot2)`
-    * `(모델링에 쓴 패키지, 예: pROC 등)`
