@@ -28,6 +28,13 @@ kaggle의 Cardiovascular Disease 데이터셋을 활용하여, 운동 여부가 
 <img src="./images/slide1.PNG" width="300"> <img src="./images/slide2.PNG" width="300"> <img src="./images/slide3.PNG" width="300"> <img src="./images/slide4.PNG" width="300">
 <img src="./images/slide5.PNG" width="300"> <img src="./images/slide6.PNG" width="300"> <img src="./images/slide7.PNG" width="300"> <img src="./images/slide8.PNG" width="300">
 <img src="./images/slide9.PNG" width="300"> <img src="./images/slide10.PNG" width="300"> <img src="./images/slide11.PNG" width="300"> <img src="./images/slide12.PNG" width="300">
-<img src="./images/slide13.PNG" width="300">
+<img src="./images/slide13.PNG" width="300"> <img src="./images/slide14.PNG" width="300"> <img src="./images/slide15.PNG" width="300"> <img src="./images/slide16.PNG" width="300">
+<img src="./images/slide17.PNG" width="300"> <img src="./images/slide18.PNG" width="300"> <img src="./images/slide19.PNG" width="300"> <img src="./images/slide20.PNG" width="300">
+<img src="./images/slide21.PNG" width="300"> <img src="./images/slide22.PNG" width="300"> <img src="./images/slide23.PNG" width="300"> <img src="./images/slide24.PNG" width="300">
+<img src="./images/slide25.PNG" width="300"> <img src="./images/slide26.PNG" width="300"> <img src="./images/slide27.PNG" width="300"> <img src="./images/slide28.PNG" width="300">
+<img src="./images/slide29.PNG" width="300"> <img src="./images/slide30.PNG" width="300"> <img src="./images/slide31.PNG" width="300"> <img src="./images/slide32.PNG" width="300">
+<img src="./images/slide33.PNG" width="300"> <img src="./images/slide34.PNG" width="300"> <img src="./images/slide35.PNG" width="300"> <img src="./images/slide36.PNG" width="300">
+<img src="./images/slide37.PNG" width="300"> <img src="./images/slide38.PNG" width="300"> <img src="./images/slide39.PNG" width="300"> <img src="./images/slide40.PNG" width="300">
+<img src="./images/slide41.PNG" width="300"> <img src="./images/slide42.PNG" width="300">
 
 
